@@ -7,8 +7,8 @@
 
      public class ZC : Plugin<Config>
      {
-          public override string Name => "BleedingPlugin";
-          public override string Prefix => "Bleeding";
+          public override string Name => "ZombiesConvert";
+          public override string Prefix => "zombieconvert";
           public override string Author => "@misfiy";
           public override PluginPriority Priority => PluginPriority.Default;
           private PlayerHandler playerHandler;
