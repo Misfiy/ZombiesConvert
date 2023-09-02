@@ -1,10 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <LangVersion>10.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,14 +12,14 @@
     <PackageReference Include="UnityEngine.Modules" Version="2019.4.15" IncludeAssets="compile" />
   </ItemGroup>
 
-  <ItemGroup>
+  <ItemGroup> <!--
     <Reference Include="Exiled.API"><HintPath>lib/Exiled.API.dll</HintPath></Reference>
     <Reference Include="Exiled.CreditTags"><HintPath>lib/Exiled.CreditTags.dll</HintPath></Reference>
     <Reference Include="Exiled.CustomItems"><HintPath>lib/Exiled.CustomItems.dll</HintPath></Reference>
     <Reference Include="Exiled.CustomRoles"><HintPath>lib/Exiled.CustomRoles.dll</HintPath></Reference>
     <Reference Include="Exiled.Events"><HintPath>lib/Exiled.Events.dll</HintPath></Reference>
     <Reference Include="Exiled.Permissions"><HintPath>lib/Exiled.Permissions.dll</HintPath></Reference>
-    <Reference Include="UnityEngine"><HintPath>lib/UnityEngine.dll</HintPath></Reference>
+    <Reference Include="UnityEngine"><HintPath>lib/UnityEngine.dll</HintPath></Reference> -->
     <Reference Include="Assembly-CSharp-firstpass"><HintPath>lib/Assembly-CSharp-firstpass.dll</HintPath></Reference>
     <Reference Include="Assembly-CSharp"><HintPath>lib/Assembly-CSharp.dll</HintPath></Reference>
     <!-- <Reference Include="Assembly-CSharp-Publicized"><HintPath>lib/Assembly-CSharp-Publicized.dll</HintPath></Reference> -->
